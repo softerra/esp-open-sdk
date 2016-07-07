@@ -2,13 +2,18 @@
 	path = crosstool-NG
 	url = https://github.com/jcmvbkbc/crosstool-NG
 	branch = xtensa-1.22.x
+	ignore = dirty
 [submodule "lx106-hal"]
 	path = lx106-hal
 	url = https://github.com/tommie/lx106-hal
+	ignore = dirty
 [submodule "esptool"]
 	path = esptool
 	url = https://github.com/themadinventor/esptool
+	ignore = dirty
 [submodule "esp-open-lwip"]
 	path = esp-open-lwip
 	url = https://github.com/pfalcon/esp-open-lwip
 	branch = sdk-1.5.0-experimental
+	ignore = dirty
+
